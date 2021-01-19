@@ -6,7 +6,6 @@ import java.util.List;
 public class Knoten {
 	private double wert;
 	private List<Knoten> kinder;
-	private int variable = 0;
 
 	public Knoten(double wert, List<Knoten> kinder) {
 		this.wert = wert;
